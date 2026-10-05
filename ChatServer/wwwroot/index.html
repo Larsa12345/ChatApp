@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8" />
+    <title>Chat App</title>
+
+    <script src="/lib/signalr/signalr.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    
+    <h1>Chat App</h1>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+
+    <label for="message">Message:</label>
+    <input type="text" id="message" required>
+
+    <button id="sendButton">Send</button>
+
+    <h2>Messages</h2>
+    <ul id="messages"></ul>
+
+    <script src="/app.js"></script>
+
+</body>
+</html>
